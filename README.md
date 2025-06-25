@@ -16,28 +16,30 @@ A minimal file explorer built with C++ and [Dear ImGui](https://github.com/ocorn
 - **C++**
 - **Dear ImGui**
 - **C++17/20 Filesystem API** (`std::filesystem`)
+- **CMake**
 
 ## 📦 Setup & Run
 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/maxkaiser11/Goob-s-File-Explorer.git
-   cd simple-file-explorer
+   cd Goob-s-File-Explorer
    ```
 
-2. **Build the project**
-
-   Example with `g++` (make sure you link ImGui and its dependencies):
+2. **Build with CMake**
    ```bash
-   g++ main.cpp -Ipath_to_imgui -Llibs -lGL -ldl -lglfw -o file_explore
+   mkdir build
+   cd build
+   cmake ..
+   cmake --build .
    ```
 
-3. **Run**
+3. **Run the executable**
    ```bash
    ./file_explorer
    ```
 
-> ✅ Ensure GLFW, OpenGL, and ImGui are correctly linked on your platform.
+> ✅ Make sure all dependencies like ImGui, GLFW, and OpenGL are correctly linked via your `CMakeLists.txt`.
 
 ## 🖼️ Screenshot
 
@@ -46,3 +48,4 @@ A minimal file explorer built with C++ and [Dear ImGui](https://github.com/ocorn
 ## 📄 License
 
 This project is licensed under the MIT License.
+

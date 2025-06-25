@@ -21,7 +21,7 @@ A minimal file explorer built with C++ and [Dear ImGui](https://github.com/ocorn
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/simple-file-explorer.git
+   git clone https://github.com/maxkaiser11/Goob-s-File-Explorer.git
    cd simple-file-explorer
    ```
 
@@ -29,7 +29,7 @@ A minimal file explorer built with C++ and [Dear ImGui](https://github.com/ocorn
 
    Example with `g++` (make sure you link ImGui and its dependencies):
    ```bash
-   g++ main.cpp -Ipath_to_imgui -Llibs -lGL -ldl -lglfw -o file_explorer
+   g++ main.cpp -Ipath_to_imgui -Llibs -lGL -ldl -lglfw -o file_explore
    ```
 
 3. **Run**

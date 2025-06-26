@@ -40,6 +40,18 @@ A minimal file explorer built with C++ and [Dear ImGui](https://github.com/ocorn
    ```
 
 > ✅ Make sure all dependencies like ImGui, GLFW, and OpenGL are correctly linked via your `CMakeLists.txt`.
+>
+# How to install VCPKG
+
+Official Link: <https://vcpkg.io/en/index.html>
+
+```cmd
+cd external
+git clone https://github.com/Microsoft/vcpkg.git
+.\vcpkg\bootstrap-vcpkg.bat # windows
+./vcpkg/bootstrap-vcpkg.sh # Unix
+```
+
 
 ## 🖼️ Screenshot
 

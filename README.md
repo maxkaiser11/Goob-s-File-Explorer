@@ -20,6 +20,20 @@ A minimal file explorer built with C++ and [Dear ImGui](https://github.com/ocorn
 
 ## 📦 Setup & Run
 
+# How to install VCPKG
+
+Official Link: <https://vcpkg.io/en/index.html>
+
+```cmd
+git clone https://github.com/Microsoft/vcpkg.git
+.\vcpkg\bootstrap-vcpkg.bat # windows
+./vcpkg/bootstrap-vcpkg.sh # Unix
+```
+You Will need to set your installation path of vcpkg in the cmake on this line:
+```cmd
+set (VCPKG_DIR "C:/Users/User/vcpkg")
+```
+
 1. **Clone the repository**
    ```bash
    git clone https://github.com/maxkaiser11/Goob-s-File-Explorer.git
@@ -41,15 +55,7 @@ A minimal file explorer built with C++ and [Dear ImGui](https://github.com/ocorn
 
 > ✅ Make sure all dependencies like ImGui, GLFW, and OpenGL are correctly linked via your `CMakeLists.txt`.
 >
-# How to install VCPKG
 
-Official Link: <https://vcpkg.io/en/index.html>
-
-```cmd
-git clone https://github.com/Microsoft/vcpkg.git
-.\vcpkg\bootstrap-vcpkg.bat # windows
-./vcpkg/bootstrap-vcpkg.sh # Unix
-```
 
 
 ## 🖼️ Screenshot
